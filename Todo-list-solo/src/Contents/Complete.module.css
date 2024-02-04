@@ -1,0 +1,51 @@
+.container{
+    width: 550px;
+    height: 265px;
+    flex-shrink: 0;
+    background-color: #A1A6B4;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    margin-left: 51px;
+    color: #000;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.completed-list{
+    width: 409px;
+    height: 227px;
+    flex-shrink: 0;
+    background-color: #A1A6B4;
+    margin-left: 77px;
+    color: #000;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.remove-button{
+    width: 10px;
+    height: 9px;
+    flex-shrink: 0;
+    margin-left: 30px;
+    background-color: #A1A6B4;
+    border: none;
+}
+
+.remove-icon{
+    width: 8px;
+    height: 8px;
+}
+
+.button-hidden{
+    display: none;
+}

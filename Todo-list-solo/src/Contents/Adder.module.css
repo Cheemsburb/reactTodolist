@@ -1,0 +1,40 @@
+.container{
+    margin-top: 48px;
+    width: 550px;
+    height: 119px;
+    flex-shrink: 0;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    background-color: #A1A6B4;
+}
+
+.title{
+    align-self: center;
+    color: #000;
+    text-align: center;
+    font-family: Arial;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 14px;
+}
+
+.input{
+    width: 501px;
+    align-self: center;
+    margin-top: 48px;
+    text-align: center;
+    border: none;
+    background-color: #A1A6B4;
+}
+input:focus {
+    outline: none;
+}
+.line{
+    width: 501px;
+    height: 1.828px;
+    background: #000;
+    align-self: center;
+}
